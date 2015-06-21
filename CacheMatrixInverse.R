@@ -24,7 +24,7 @@ makeCacheMatrix <- function(x = matrix()) {
 #    a. if Yes, it gets the precomputed result and returns.
 #    b. if Not, it computes the inverse using solve() function
 #                and sets the value in the cache via setinverse
-#                function.
+#                function. 
 # cacheSolve assumes that the matrix is always invertible, therefore no
 # additional checks will be made.
 
